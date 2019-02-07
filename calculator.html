@@ -12,6 +12,11 @@ function seno() {
    var num3 = document.getElementById("n1");
    num3.value = Math.sin(num3.value);
 }
+
+function cuarta() {
+   var num2 = document.getElementById("n1");
+   num2.value = Math.pow(num2.value, 4);
+}
 </script>
 </head>
 <body>
@@ -21,6 +26,7 @@ function seno() {
    <p>
      <button onclick="cube()"> x^3 </button>
      <button onclick="seno()"> sen(x) </button>
+     <button onclick="cuarta()"> x^4 </button>
    </p>
 </body>
 </html>
